@@ -17,11 +17,16 @@ body{
     width: 1340px;
     margin: 0 auto;
 }
-
+.nav{
+    position: sticky;
+    top: 0;
+    background-color: rgba(221, 211, 211, .5);
+    z-index: 3;
+}
 .nav .container1{
     display: flex;
     justify-content: space-between;
-    padding: 30px
+    padding: 20px;
 }
 .nav-list{
     display: flex;
@@ -95,16 +100,20 @@ body{
 .advice-list{
     display: flex;
     justify-content: space-between;
+    padding: 20px 0px;
 }
 .advice-item{
     width: 30%;
-    padding: 50px 30px;
+    padding: 50px 10px;
 }
 .advice-item__title{
     font-size: 20px;
+    padding: 20px 0px;
+    width: 350px;
 }
 .advice-item__text{
     font-size: 15px;
+    width: 300px;
 }
 .main .container{
     display: flex;
@@ -124,12 +133,57 @@ body{
     background-image: url("./images/runners.jpg");
     background-size: cover;
 }
+.border1{
+    border-right: 1px solid grey;
+    overflow: hidden;
+    padding: 20px;
+    width: 40%;
+    transition: 0.3s;
+}
 .footer-content{
     color: white;
+    transform: translateX(500px);
 }
 .footer__text{
     width: 100%;
     line-height: 1.5;
     font-size: 15px;
     margin-bottom: 50px;
+}
+.right-side{
+    transform: translateX(600px);
+}
+.purchase{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.email{
+    outline: none;
+    padding: 10px;
+    background-color:  rgb(97, 93, 93);
+    border: none;
+}
+.email:hover{
+    background-color:  rgb(24, 23, 23);
+    
+}
+label{
+    display: flex;
+    align-items: center;
+}
+.submit{
+    background-color: goldenrod;
+    outline: none;
+    padding: 10px;
+    color: white;
+    border: none;
+    transition: 0.3s;
+}
+.submit:hover{
+    background-color: rgb(24, 23, 23);
+    color: goldenrod;
+}
+::placeholder{
+    color: goldenrod;
 }
