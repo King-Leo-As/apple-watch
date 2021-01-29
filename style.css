@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(221, 211, 211);
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.container1{
+    width: 1340px;
+    margin: 0 auto;
+}
+.nav .container1{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px
+}
+.nav-list{
+    display: flex;
+
+}
+.nav-item{
+    ;
+}
+.nav-item__link{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    transition: 0.5s;
+    margin: 0px 5px;
+}
+.nav-item__link:hover{
+    color: goldenrod;
+    background-color: rgb(77, 67, 67);
+    border-radius: 10px;
+
+}
+.offer{
+    text-decoration: underline;
+    padding: 5px;
+}
+.header {
+    border-bottom: 1px solid black;
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.header-content{
+    width: 40%;
+    border-left: 1px solid rgb(66, 62, 62);
+    padding-left: 20px;
+}
+.content__title{
+    padding: 20px 0px;
+}
+.content__text{
+    line-height: 1.5;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.content__note{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    background-color: rgb(41, 37, 37);
+    transition: .5s;
+    border-radius: 10px;
+}
+.content__note:hover{
+    background-color: rgb(22, 20, 20);
+    color:goldenrod;
+}
+.header-image{
+    width: 40%;
+}
+.image-photo{
+    width: 100%;
+}
