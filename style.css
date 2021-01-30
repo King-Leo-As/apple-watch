@@ -93,6 +93,7 @@ body{
 }
 .image-photo{
     width: 100%;
+    margin-bottom: 50px;
 }
 .advice-section .container{
     padding: 40px;
@@ -119,7 +120,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 40px 50px;
 }
 .preview{
     height: 500px;
