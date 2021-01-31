@@ -20,7 +20,7 @@ body{
 .nav{
     position: sticky;
     top: 0;
-    background-color: rgba(221, 211, 211, .5);
+    background-color: rgba(221, 211, 211, 0.9);
     z-index: 3;
 }
 .nav .container1{
@@ -39,6 +39,7 @@ body{
     padding: 10px;
     transition: 0.1s;
     margin: 0px 5px;
+    font-weight: 500;
 }
 .nav-item__link:hover{
     color: goldenrod;
