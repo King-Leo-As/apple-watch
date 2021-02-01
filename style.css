@@ -13,17 +13,14 @@ body{
     width: 1140px;
     margin: 0 auto;
 }
-.container1{
-    width: 1340px;
-    margin: 0 auto;
-}
+
 .nav{
     position: sticky;
     top: 0;
     background-color: rgba(221, 211, 211, 0.9);
     z-index: 3;
 }
-.nav .container1{
+.nav .container{
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -110,11 +107,9 @@ body{
 .advice-item__title{
     font-size: 20px;
     padding: 20px 0px;
-    width: 350px;
 }
 .advice-item__text{
     font-size: 15px;
-    width: 300px;
 }
 .main .container{
     display: flex;
@@ -186,4 +181,38 @@ label{
 }
 ::placeholder{
     color: goldenrod;
+}
+
+@media screen and (max-width: 1160px) {
+    .container {
+        width: 980px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 880px;
+    }
+
+    .content__title {
+        font-size: 28px;
+    }
+
+    .advice-item__title {
+        font-size: 20px;
+    }
+
+    .border {
+        margin-left: 60px;
+    }
+
+    .right-side {
+        transform: translateX(470px);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        width: 780px;
+    }
 }
